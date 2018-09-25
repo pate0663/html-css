@@ -4,7 +4,17 @@ filename: styles.css;
 Date: September 24,2018;
 */
 
+header{
+    background-image: url(http://picsum.photos/g/2000/400?image=288);
+    background-size: cover;
+    padding: 1.25rem;
+    min-height: 16.5rem;
+    
+}
 nav{
     background-color: blue;
 
+}
+h1{
+color: aqua;  
 }
