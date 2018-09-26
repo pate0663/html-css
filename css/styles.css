@@ -4,22 +4,80 @@ filename: styles.css;
 Date: September 24,2018;
 */
 
+
+
 header{
-    background-image: url(http://picsum.photos/g/2000/400?image=288);
+    background-image: url(http://picsum.photos/g/2400/400?image=288);
+/*    background-image is display using url  */
     background-size: cover;
-    padding: 1.25rem;
+/*    background-size  */
+    padding: 10px 0px 50px 40px;
+/*    padding for top left bottom right */
     min-height: 16.5rem;
+/*    set min height*/
+}
+body{
+    padding: 35px;
+}
+nav{
+    padding: 12px;
+    font-size: 2rem;
+/*    size of nav*/
     
+    background: hsla(210, 50%, 50%, 1);
+/*    set background color*/
+}
+
+div{
+    padding: 10px;
+    background-color: hsla(210, 40%, 25%, 1);
 }
 
 h1{  
-    font-size: 4rem;
-    font-color:hsla(261,100%,50%,1);
-    padding: 25px 50px 75px 100px;
+    font-size: 6rem;
+    color:hsla(210, 40%, 25%, 1);
+/*    color of heading 1 */
+    padding: 0px 30px 0px 20px;
+    
 }
 
 h2{
-    font-size: 2rem;
-    font-color:hsla(351,100%,64%,1);
-    padding: 10px 40px 56px 100px;
+/*    heading 2*/
+    font-size: 4rem;
+    color:hsla(210, 50%, 80%, 1);
+    padding: 0px 30px 0px 20px;
+}
+
+h3{  
+/*    heading 3 */
+    font-size: 3rem;
+    color:hsla(210, 55%, 60%, 1);
+    padding: 0px 30px 0px 50px;
+}
+
+h4{  
+/*         heading 4 */
+    font-size: 1.5rem;
+    color:hsla(210, 45%, 60%, 1);
+    padding: 0px 30px 0px 50px;
+}
+
+p{
+/*    paragraph tag */
+    padding: 0px 30px 0px 50px;
+    font-size: 1rem;
+}
+
+ul{
+    padding: 0px 30px 0px 65px;
+}
+
+li{
+    padding: 0px 0px 0px 10px;
+    font-size: 1rem;
+}
+
+a{
+    color:hsla(25, 100%, 97%, 1);
+    padding: 0px 30px 0px 50px;
 }
